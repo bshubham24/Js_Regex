@@ -1,0 +1,1 @@
+console.log("Welcome to regex practice to valid email and pin");
