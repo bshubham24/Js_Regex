@@ -1,5 +1,5 @@
 function emailValidator(email){
-    let emailregex = RegExp('^[a-z]{1,}$');
+    let emailregex = RegExp('^[a-z]+@[a-z]+$');
     let checkEmail = emailregex.test(email);
     if(checkEmail){
         console.log(email+" is a valid email");
@@ -9,4 +9,4 @@ function emailValidator(email){
     }
 }
 
-emailValidator("abc");
+emailValidator("abc@bridgelabz");
